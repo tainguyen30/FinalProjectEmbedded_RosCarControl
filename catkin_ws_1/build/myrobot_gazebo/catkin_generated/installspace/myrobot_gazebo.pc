@@ -1,0 +1,8 @@
+prefix=/home/duytai/catkin_ws_1/install
+
+Name: myrobot_gazebo
+Description: Description of myrobot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

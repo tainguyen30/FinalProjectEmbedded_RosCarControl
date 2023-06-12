@@ -1,0 +1,8 @@
+prefix=/home/duytai/catkin_ws_1/devel
+
+Name: transforms_wiki
+Description: Description of transforms_wiki
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

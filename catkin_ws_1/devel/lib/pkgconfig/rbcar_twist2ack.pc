@@ -1,0 +1,8 @@
+prefix=/home/duytai/catkin_ws_1/devel
+
+Name: rbcar_twist2ack
+Description: Description of rbcar_twist2ack
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

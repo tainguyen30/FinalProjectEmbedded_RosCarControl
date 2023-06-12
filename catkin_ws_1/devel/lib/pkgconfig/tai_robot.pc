@@ -1,0 +1,8 @@
+prefix=/home/duytai/catkin_ws_1/devel
+
+Name: tai_robot
+Description: Description of tai_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/duytai/catkin_ws_1/devel
+
+Name: test_rostopic
+Description: Description of test_rostopic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

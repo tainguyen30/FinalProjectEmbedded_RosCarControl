@@ -1,0 +1,8 @@
+prefix=/home/pi308/robot_control/devel
+
+Name: myrobot
+Description: Description of myrobot
+Version: 0.0.0
+Cflags: -I/home/pi308/robot_control/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

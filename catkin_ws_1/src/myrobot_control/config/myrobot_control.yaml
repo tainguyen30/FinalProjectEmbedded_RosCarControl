@@ -1,0 +1,30 @@
+my_diffbot:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  # Hz
+
+  # Velocity Controllers ---------------------------------------
+  left_wheel_controller:
+    type: velocity_controllers/JointVelocityController # effort_controllers/JointPositionController
+    joint: left_wheel_joint                          # velocity_controllers/JointVelocityController
+    pid: {p: 10.0, i: 0.01, d: 10.0}
+    #limits: {min: -2, max: 2}
+  right_wheel_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: right_wheel_joint
+    pid: {p: 10.0, i: 0.01, d: 10.0}
+    #limits: {min: -2, max: 2}
+
+  # Steering Controllers ---------------------------------------
+#  Steering_controller:
+#    type: velocity_controllers/JointPositionController
+#    joint: steer_joint
+#    pid: {p: 50.0, i: 0.01, d: 10.0}
+    
+  # Direction_wheel Controllers ---------------------------------------
+#  direction_wheel_controllers:
+#    type: velocity_controllers/JointVelocityController 
+#    joint: direction_wheel_joint                          
+#    pid: {p: 50.0, i: 0.01, d: 10.0}
+  

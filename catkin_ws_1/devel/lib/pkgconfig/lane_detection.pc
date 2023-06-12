@@ -1,0 +1,8 @@
+prefix=/home/duytai/catkin_ws_1/devel
+
+Name: lane_detection
+Description: Description of lane_detection
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge geometry_msgs image_transport roscpp rospy sensor_msgs std_msgs
